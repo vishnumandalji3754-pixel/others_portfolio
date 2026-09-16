@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      #first {
+        /* border: 2px solid black; */
+        padding-top: 50px;
+      }
+
+      #first .p1 {
+        font-size: 2rem;
+        line-height: 40px;
+        margin-bottom: 0;
+        font-weight: 600;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+
+      #first .p2 {
+        font-family: "Pinyon Script", cursive;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 3rem;
+        color: #9244a1;
+      }
+
+      #first .name {
+        font-size: 6rem;
+        line-height: 80px;
+        font-weight: 700;
+      }
+
+      #first button {
+        height: 3rem;
+        /* border: 2px solid black; */
+        width: 8rem;
+        border-radius: 25px;
+        font-weight: 600;
+        box-shadow: 2px 5px 9px 4px grey;
+        margin-top: 2rem;
+        transition: all 0.7s ease;
+      }
+
+      #first .right .floating {
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-weight: 600;
+        font-family: "Pinyon Script", cursive;
+        color: #e0abea;
+        font-size: 23px;
+        padding: 10px;
+        width: 12rem;
+        border-radius: 25px;
+        position: relative;
+        bottom: 20px;
+        transform: rotate(-8deg);
+        box-shadow: 16px 16px 30px grey;
+      }
+
+      #first button:hover {
+        transform: scale(1.3);
+      }
+
+      #first .b1 {
+        margin-right: 2rem;
+        background-color: black;
+        color: white;
+      }
+
+      #first .b2 {
+        background: #da22ff; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #9733ee,
+          #da22ff
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #9733ee,
+          #da22ff
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+
+      /* #first .firstimg{
+        background-image: url(/others_portfolio/image/image.png);
+      } */
+
+      #first .firstimg img {
+        height: 15rem;
+        width: 16rem;
+        padding-left: 40px;
+      }
+
+      #second {
+        margin-top: 3rem;
+        /* border: 2px solid black; */
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+
+      #second .firstrow {
+        color: white;
+        font-size: 3rem;
+        font-weight: 600;
+      }
+
+      #second .firstrow button {
+        color: white;
+        border: 2px solid purple;
+        border-radius: 20px;
+        margin-right: 10px;
+      }
+
+      #second .firstrow button:hover {
+        border: 2px solid white;
+        transform: scale(1.1);
+      }
+
+      #second .container {
+        background-color: black;
+        padding: 2rem;
+        border-radius: 25px;
+      }
+
+      #second .card {
+        padding: 0.5rem;
+        background-color: #c9a4e9;
+        border-radius: 10px;
+      }
+
+      #second .card .card-body {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+
+      #second .card .card-body p {
+        font-size: 2rem;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="first">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <p class="p1">Hello , I'm</p>
+            <!-- <p class="fw-bold">Bold text.</p> -->
+            <p class="name">Sonu Kumar</p>
+            <p class="p2">A full stack web developer</p>
+            <p class="p3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel modi
+              repudiandae sit mollitia accusamus, ab vitae repellat ex assumenda
+              perferendis.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="b1 btn me-md-2" type="button">Button</button>
+                <button class="b2 btn" type="button">Button</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 right">
+            <div class="firstimg">
+              <img src="/others_portfolio/image/boyimages.jpg" alt="" />
+            </div>
+            <div class="floating">
+              <p>
+                turning ideas <br />
+                into delightful <br />experience 💜✨
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="second">
+      <div class="container">
+        <div class="sdiv">
+          <div class="row firstrow">
+            <div class="col-md-6">
+              <p>Selected works :</p>
+            </div>
+            <div class="col-md-6">
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn" type="button">All</button>
+                <button class="btn" type="button">Web Design</button>
+                <button class="btn" type="button">Branding</button>
+                <button class="btn" type="button">UI/UX</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card" style="width: 22rem">
+                <img
+                  src="./image/imagesfooood.jpg"
+                  class="card-img-top"
+                  style="height: 15rem"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">Food website</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card" style="width: 22rem">
+                <img
+                  src="./image/imagesfooood.jpg"
+                  class="card-img-top"
+                  style="height: 15rem"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">Food website</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card" style="width: 22rem">
+                <img
+                  src="./image/imagesfooood.jpg"
+                  class="card-img-top"
+                  style="height: 15rem"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">food website</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
